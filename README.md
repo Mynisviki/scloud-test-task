@@ -1,1 +1,1 @@
-# scloud-test-task
+# test-task
