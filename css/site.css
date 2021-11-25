@@ -3,7 +3,8 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: PT Sans;
 }
 
 .header {
@@ -27,6 +28,9 @@ body {
 .navigation__list {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
 }
 
 .navigation__item {
@@ -47,8 +51,8 @@ body {
   background-image: url("../img/arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 5px;
-  width: 10px;
+  height: 8px;
+  width: 12px;
   display: inline-block;
 }
 
@@ -66,6 +70,8 @@ body {
   margin-left: 34px;
   color: #6F6F6F;
   text-decoration: none;
+  font-family: PT Sans Caption;
+  font-size: 15px;
 }
 
 .login-container {
@@ -75,6 +81,8 @@ body {
 .login-container__sign-in {
   text-decoration: none;
   color: #6F6F6F;
+  font-family: PT Sans Caption;
+  font-size: 14px;
 }
 
 .login-container__sign-in-icon {
@@ -97,4 +105,6 @@ body {
   border-radius: 50px;
   padding: 15px 30px;
   margin-left: 20px;
+  font-family: PT Sans Caption;
+  font-size: 14px;
 }
