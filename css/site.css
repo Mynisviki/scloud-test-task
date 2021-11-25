@@ -213,8 +213,94 @@ main {
   margin-bottom: 24px;
 }
 
+.main-features__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .main-features__list-item-text {
   font-size: 20px;
   line-height: 30px;
   color: #333333;
+}
+
+.rent-advantages {
+  margin-top: 110px;
+}
+
+.rent-advantages__header {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.rent-advantages__list {
+  display: grid;
+  grid-template-columns: 384px 384px 384px;
+  grid-template-rows: 140px 140px;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.rent-advantages__list-item {
+  list-style-type: none;
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 42px 30px 42px 30px;
+}
+
+.rent-advantages__list-icon {
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.rent-advantages__list-icon_box {
+  background-image: url("../img/box.svg");
+}
+
+.rent-advantages__list-icon_headphones {
+  background-image: url("../img/headphones.svg");
+}
+
+.rent-advantages__list-icon_rub {
+  background-image: url("../img/rub.svg");
+}
+
+.rent-advantages__list-icon_home {
+  background-image: url("../img/home.svg");
+}
+
+.rent-advantages__list-icon_clock {
+  background-image: url("../img/clock.svg");
+}
+
+.rent-advantages__list-icon_plus-circle {
+  background-image: url("../img/plus-circle.svg");
+}
+
+.rent-advantages__trial-link {
+  text-decoration: none;
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FF6600;
+  display: inline-block;
+  margin-top: 10px;
 }
