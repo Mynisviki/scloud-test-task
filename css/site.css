@@ -167,3 +167,54 @@ main {
   width: 484px;
   height: 307px;
 }
+
+.main-features {
+  margin-top: 110px;
+}
+
+.main-features__header {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #333333;
+  margin: 0;
+}
+
+.main-features__columns-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.main-features__list {
+  margin: 0;
+  padding: 0;
+}
+
+.main-features__list-icon {
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  background-size: cover;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.main-features__list-item {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.main-features__list-item-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
