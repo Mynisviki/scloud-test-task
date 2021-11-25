@@ -96,15 +96,74 @@ body {
 }
 
 .login-container__sign-up {
+  margin-left: 20px;
+}
+
+.button {
   display: inline-block;
   text-decoration: none;
   background: #FF6600;
-  size: 14px;
   color: #FFF;
   font-weight: 700;
   border-radius: 50px;
   padding: 15px 30px;
-  margin-left: 20px;
   font-family: PT Sans Caption;
   font-size: 14px;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-promo__left-column {
+  width: 628px;
+}
+
+.main-promo {
+  display: flex;
+  align-items: center;
+  margin-top: 136px;
+  gap: 88px;
+}
+
+.main-promo__header {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.main-promo__price {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  color: #FF6600;
+  margin: 0;
+  margin-bottom: 31px;
+}
+
+.main-promo__text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.main-promo__note {
+  display: block;
+  line-height: 24px;
+  color: #999999;
+  margin-top: 16px;
+}
+
+.main-promo__image {
+  width: 484px;
+  height: 307px;
 }
