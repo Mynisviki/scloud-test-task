@@ -192,18 +192,22 @@ main {
   line-height: 42px;
   color: #333333;
   margin: 0;
+  margin-bottom: 30px;
 }
 
 .main-features__columns-container {
   display: flex;
   align-items: center;
-  margin-top: 30px;
   gap: 25px;
 }
 
 .main-features__list {
   margin: 0;
   padding: 0;
+}
+
+.main-features__list_small {
+  width: 894px;
 }
 
 .main-features__list-icon {
@@ -607,3 +611,4 @@ main {
 .trial__link {
   color: #FF6600;
 }
+
