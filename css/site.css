@@ -112,6 +112,7 @@ body {
   border: 2px solid #EAEAEA;
   background-color: white;
   cursor: pointer;
+  height: 50px;
 }
 
 .button_active {
@@ -529,7 +530,7 @@ main {
 }
 
 .slider__points-container {
-  display:flex;
+  display: flex;
   margin: 0;
   padding: 0;
   margin-top: 40px;
@@ -546,5 +547,63 @@ main {
 }
 
 .slider__point_active {
-  background-color:  #FF6600;
+  background-color: #FF6600;
+}
+
+.trial {
+  margin-top: 110px;
+}
+
+.trial__header {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+
+.trial__accent {
+  color: #FF6600;
+  font-style: normal;
+}
+
+.trial__inputs-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.trial__input {
+  width: 384px;
+  height: 64px;
+  padding: 16px 28px;
+  border: 1px solid #B6B6B6;
+  border-radius: 5px;
+  color: #6F6F6F;
+}
+
+.trial__note {
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 29px;
+  color: #6F6F6F;
+  margin-bottom: 33px;
+  display: block;
+}
+
+.trial__submit-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.trial__agreement {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6F6F6F;
+  margin: 0;
+}
+
+.trial__link {
+  color: #FF6600;
 }
