@@ -683,6 +683,7 @@ main {
 
 .other-products__list-item-columns-container {
   display: flex;
+  align-items: center;
   gap: 44px;
   margin-bottom: 26px;
 }
