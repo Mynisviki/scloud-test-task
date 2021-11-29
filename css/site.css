@@ -667,12 +667,25 @@ main {
 
 .statistics__link {
   margin-top: 31px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   font-family: PT Sans Caption;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   color: #F76201;
+}
+
+.statistics__link-icon {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 7px;
+  height: 11px;
+  background-image: url("../img/greater.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .statistics__image {
@@ -762,11 +775,25 @@ main {
 }
 
 .other-products__list-item-link {
+  display: flex;
+  align-items: center;
   font-family: PT Sans Caption;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   color: #F76201;
+}
+
+.other-products__list-item-link-icon {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 7px;
+  height: 11px;
+  background-image: url("../img/greater.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer {
