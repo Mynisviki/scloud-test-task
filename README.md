@@ -1,2 +1,2 @@
-# test-task
-[My test-site](https://mynisviki.github.io/test-task/)
+# 1c-site
+[demo](https://mynisviki.github.io/test-task/)
