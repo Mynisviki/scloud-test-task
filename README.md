@@ -1,2 +1,2 @@
 # Demo Link
-https://mynisviki.github.io/test-task/
+https://mynisviki.github.io/1c-site/
